@@ -32,8 +32,6 @@ static Map<String,String> countries = new HashMap<>();
         System.out.println("il ya une erreur quelques part");
     }
         obj.affiche(obj.mpsaisie);
-
-
     }
 
 
