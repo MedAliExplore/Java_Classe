@@ -35,9 +35,6 @@ public class Exec {
         Student etudiant1 = new Student("IDETUDIANT001",formation1,resultats);
 
 
-        
-    
-
         Boolean res =  etudiant1.setNoteMod("PHYSIQUE", 10.0);
         etudiant1.setNoteMod("MATH", 19.0);
         etudiant1.setNoteMod("ANGLAIS", 15.0);
