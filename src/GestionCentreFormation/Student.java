@@ -46,16 +46,14 @@ public class Student {
 
     public Boolean setNoteMod(String Mod, Double note ){
         Mod = Mod.toUpperCase();
-         Boolean init = false;
-         ArrayList<Double> notes = new ArrayList<>();
-         notes.add(note);
-
+        Boolean init = false;
+        ArrayList<Double> notes = new ArrayList<>();
+        notes.add(note);
+        resultat.put(Mod, notes);
             if(resultat.containsKey(Mod)){
                 resultat.put(Mod,notes);
                 init = true;
             }
-
-        
         return init;
     }
 
